@@ -486,6 +486,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <boolean name="config_disable_clir_over_ut" value="true" />
         <string-array name="mccmnc" num="1">
             <item value="42004" />
         </string-array>
@@ -493,6 +494,7 @@
     <carrier_config operator="STC_SA">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_disable_clir_over_ut" value="true" />
         <string-array name="mccmnc" num="1">
             <item value="42001" />
         </string-array>
