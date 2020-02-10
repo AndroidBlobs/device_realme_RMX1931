@@ -36,6 +36,54 @@
             <item value="46011" />
         </string-array>
     </carrier_config>
+    <carrier_config operator="CMHK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_support_viwifi_bool" value="false" />
+        <string-array name="mccmnc" num="2">
+            <item value="45412" />
+            <item value="45413" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="3HK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_support_viwifi_bool" value="false" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="45403" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="HKT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="config_oppo_support_viwifi_bool" value="false" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="45400" />
+            <item value="45419" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SMARTONE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_support_viwifi_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="45406" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CT" iccid="8986">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="20404" />
+        </string-array>
+    </carrier_config>
     <carrier_config operator="JIO">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -408,6 +456,45 @@
         <string-array name="mccmnc" num="2">
             <item value="22801" />
             <item value="29501" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="France-Bouygues">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="20820" />
+            <item value="20821" />
+            <item value="20888" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="France-ORANGE">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+        <string-array name="mccmnc" num="4">
+            <item value="20801" />
+            <item value="20802" />
+            <item value="20829" />
+            <item value="20891" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="ETISATAT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="config_disable_clir_over_ut" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="42402" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Zain KSA">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="42004" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="STC_SA">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="42001" />
         </string-array>
     </carrier_config>
     <carrier_config operator="TEST SIM">
